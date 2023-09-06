@@ -428,7 +428,7 @@ img {
     background-size: cover;
 
     background-image: var(--image-filter),
-      url(../Website_for_Barbershop/images/hero/slider-img-3_tab@1x.jpg);
+      url(./images/hero/slider-img-3_tab@1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -436,7 +436,7 @@ img {
     (min-resolution: 2dppx) {
     .hero {
       background-image: var(--image-filter),
-        url(../Website_for_Barbershop/images/hero/slider-img-3_tab@2x.jpg);
+        url(./images/hero/slider-img-3_tab@2x.jpg);
     }
   }
 }
@@ -444,7 +444,7 @@ img {
 @media only screen and (max-width: 480px) {
   .hero {
     background-image: var(--image-filter),
-      url(../Website_for_Barbershop/images/hero/slider-img-3_mob@1x.jpg);
+      url(./images/hero/slider-img-3_mob@1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -452,7 +452,7 @@ img {
     (min-resolution: 2dppx) {
     .hero {
       background-image: var(--image-filter),
-        url(../Website_for_Barbershop/images/hero/slider-img-3_mob@2x.jpg);
+        url(./images/hero/slider-img-3_mob@2x.jpg);
     }
   }
 }
@@ -528,7 +528,7 @@ img {
     padding-left: 100px;
     background-color: var(--dark-cl);
     background-image: var(--image-filter),
-      url(../Website_for_Barbershop/images/hero/slider-img-3_tab@1x.jpg);
+      url(./images/hero/slider-img-3_tab@1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -536,7 +536,7 @@ img {
     (min-resolution: 2dppx) {
     .hero-right-side {
       background-image: var(--image-filter),
-        url(../Website_for_Barbershop/images/hero/slider-img-3_tab@2x.jpg);
+        url(./images/hero/slider-img-3_tab@2x.jpg);
     }
   }
 }
@@ -545,7 +545,7 @@ img {
   .hero-right-side {
     padding-bottom: 208px;
     background-image: var(--image-filter),
-      url(../Website_for_Barbershop/images/hero/slider-img-3_desk@1x.jpg);
+      url(./images/hero/slider-img-3_desk@1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -553,12 +553,9 @@ img {
     (min-resolution: 2dppx) {
     .hero-right-side {
       background-image: var(--image-filter),
-        url(../Website_for_Barbershop/images/hero/slider-img-3_desk@2x.jpg);
+        url(./images/hero/slider-img-3_desk@2x.jpg);
     }
   }
-}
-
-.hero-uppertitle {
 }
 
 @media only screen and (min-width: 1200px) {
@@ -768,8 +765,6 @@ img {
   | About styles
   |============================
 */
-.about {
-}
 
 @media only screen and (min-width: 768px) {
   .about-container {
@@ -864,41 +859,41 @@ img {
   background-position: center;
   background-size: cover;
 
-  background-image: url(../Website_for_Barbershop/images/price/bg-img_mob@1x.png);
+  background-image: url(./images/price/bg-img_mob@1x.png);
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .price {
-    background-image: url(../Website_for_Barbershop/images/price/bg-img_mob@2x.png);
+    background-image: url(./images/price/bg-img_mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 481px) {
   .price {
-    background-image: url(../Website_for_Barbershop/images/price/bg-img_tab@1x.png);
+    background-image: url(./images/price/bg-img_tab@1x.png);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .price {
-      background-image: url(../Website_for_Barbershop/images/price/bg-img_tab@2x.png);
+      background-image: url(./images/price/bg-img_tab@2x.png);
     }
   }
 }
 
 @media only screen and (min-width: 769px) {
   .price {
-    background-image: url(../Website_for_Barbershop/images/price/bg-img_desk@1x.png);
+    background-image: url(./images/price/bg-img_desk@1x.png);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .price {
-      background-image: url(../Website_for_Barbershop/images/price/bg-img_desk@2x.png);
+      background-image: url(./images/price/bg-img_desk@2x.png);
     }
   }
 }
@@ -1000,8 +995,6 @@ img {
   | Benefits styles
   |============================
 */
-.benefits {
-}
 
 .benefits-container {
   display: flex;
@@ -1165,9 +1158,6 @@ img {
   gap: 10px;
 }
 
-.socials-item {
-}
-
 .socials-link {
   display: flex;
   justify-content: center;
@@ -1229,9 +1219,6 @@ img {
 
 .booking {
   width: 570px;
-}
-
-.booking-form {
 }
 
 .booking-form-wrapper {
@@ -1340,15 +1327,12 @@ img {
 .contacts {
   width: 570px;
   padding-left: 100px;
-  background-image: url(../Website_for_Barbershop/images/contacts/bg-img_desc@1x.png);
+  background-image: url(./images/contacts/bg-img_desc@1x.png);
 }
 
 .contacts-address {
   margin-bottom: 72px;
   font-style: normal;
-}
-
-.contacts-list {
 }
 
 .contacts-item:not(:last-child) {
@@ -1364,9 +1348,6 @@ img {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--grey-cl);
-}
-
-.contacts-uppertitle {
 }
 
 .contacts-schedule {
@@ -1499,9 +1480,6 @@ img {
   text-align: center;
 
   margin-bottom: 20px;
-}
-
-.modal-form {
 }
 
 .modal-form-field {
